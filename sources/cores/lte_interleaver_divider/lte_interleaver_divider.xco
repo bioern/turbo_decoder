@@ -1,0 +1,61 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Thu Dec 01 21:10:54 2016
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:div_gen:3.0
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = VHDL
+SET device = xc7z030
+SET devicefamily = zynq
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = fbg676
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -3
+SET verilogsim = false
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT Divider_Generator family Xilinx,_Inc. 3.0
+# END Select
+# BEGIN Parameters
+CSET algorithm_type=Radix2
+CSET ce=false
+CSET clocks_per_division=2
+CSET component_name=lte_interleaver_divider
+CSET divide_by_zero_detect=false
+CSET dividend_and_quotient_width=26
+CSET divisor_width=13
+CSET fractional_width=13
+CSET latency=29
+CSET latency_configuration=Automatic
+CSET operand_sign=Unsigned
+CSET remainder_type=Remainder
+CSET sclr=false
+CSET sclr_ce_priority=SCLR_overrides_CE
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2013-10-13T18:46:09Z
+# END Extra information
+GENERATE
+# CRC: a754dc97
